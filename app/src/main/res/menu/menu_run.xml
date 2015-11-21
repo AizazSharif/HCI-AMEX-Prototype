@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/waoe"
+        android:orderInCategory="300"
+        android:title="@string/next"
+        android:icon="@drawable/running"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/wao"
+        android:orderInCategory="300"
+        android:title="@string/next"
+        android:icon="@drawable/next"
+        app:showAsAction="always"></item>
+</menu>
